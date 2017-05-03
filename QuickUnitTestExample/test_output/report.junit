@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='QuickUnitTestExampleTests.xctest' tests='14' failures='0'>
+  <testsuite name='QuickUnitTestExampleTests.QuickUnitTestExampleTests' tests='2' failures='0'>
+    <testcase classname='QuickUnitTestExampleTests.QuickUnitTestExampleTests' name='testExample' time='0.001'/>
+    <testcase classname='QuickUnitTestExampleTests.QuickUnitTestExampleTests' name='testPerformanceExample' time='0.258'/>
+  </testsuite>
+  <testsuite name='QuickUnitTestExampleTests.String_Validation' tests='12' failures='0'>
+    <testcase classname='QuickUnitTestExampleTests.String_Validation' name='validate_string__validAlpha__should_return_TRUE_when_string_has_no_spaces' time='0.002'/>
+    <testcase classname='QuickUnitTestExampleTests.String_Validation' name='validate_string__validAlpha__should_return_FALSE_when_string_has_spaces' time='0.001'/>
+    <testcase classname='QuickUnitTestExampleTests.String_Validation' name='validate_string__validateAlphaSpaces__should_return_TRUE_when_string_has_spaces' time='0.001'/>
+    <testcase classname='QuickUnitTestExampleTests.String_Validation' name='validate_string__validateDecimalDigit__should_return_TRUE_when_string_is_digit' time='0.001'/>
+    <testcase classname='QuickUnitTestExampleTests.String_Validation' name='validate_string__validateDecimalDigit__should_return_FALSE_when_string_is_not_digit' time='0.001'/>
+    <testcase classname='QuickUnitTestExampleTests.String_Validation' name='validate_string__validate_string_contain______return_TRUE_when_string_contain____' time='0.001'/>
+    <testcase classname='QuickUnitTestExampleTests.String_Validation' name='validate_string__validate_string_contain______rerurn_contain____' time='0.001'/>
+    <testcase classname='QuickUnitTestExampleTests.String_Validation' name='validate_string__验证字符串是否为空__是TRUE的如果这个字符串不是空的' time='0.001'/>
+    <testcase classname='QuickUnitTestExampleTests.String_Validation' name='validate_string__validEmail__should_return_FALSE_when_it_s_not_an_email' time='0.004'/>
+    <testcase classname='QuickUnitTestExampleTests.String_Validation' name='validate_string__validEmail__should_return_FALSE_when_it_s_not_an_email_2' time='0.001'/>
+    <testcase classname='QuickUnitTestExampleTests.String_Validation' name='validate_string__validEmail__should_return_FALSE_when_it_s_not_an_email_3' time='0.001'/>
+    <testcase classname='QuickUnitTestExampleTests.String_Validation' name='validate_string__validEmail__should_return_true_when_it_s_an_email' time='0.001'/>
+  </testsuite>
+</testsuites>

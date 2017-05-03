@@ -12,7 +12,7 @@ import Nimble
 
 class String_Validation: QuickSpec {
     override func spec() {
-        describe("valid string") {
+        describe("validate string") {
             var text: String!
             beforeEach {
                 text = ""
@@ -46,6 +46,25 @@ class String_Validation: QuickSpec {
                 it("should return FALSE when string is not digit", closure: {
                     text = "Hello123"
                     expect(text.validateDecimalDigit()).to(beFalse())
+                })
+            })
+            
+            context("validate string contain -_.", { 
+                it("return TRUE when string contain '-'", closure: { 
+                    text = "skfjkj-sjd"
+                    expect(text.validateAlphanumericDash()).to(beTrue())
+                })
+                
+                it("rerurn contain '_'", closure: {
+                    text = "adddd_dadasd"
+                    expect(text.validateAlphanumericDash()).to(beTrue())
+                })
+            })
+            
+            context("验证字符串是否为空", {
+                it("是TRUE的如果这个字符串不是空的", closure: {
+                    text = "asdf"
+                    expect(text.validateNotEmpty()).to(beTrue())
                 })
             })
             
